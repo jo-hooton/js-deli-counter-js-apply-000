@@ -11,7 +11,7 @@ function nowServing(line) {
   if(!line.length) {
     return "There is nobody waiting to be served!"
   } else {
-    return "Currently serving " + line.shift();
+    return "Currently serving " + line.shift() +"."
   }
 }
 
@@ -22,7 +22,7 @@ function currentLine(line) {
   var lineNamesandNumbers = [];
 
   for(var i = 0; i < line.length; i++) {
-    return "The line is currently: " + lineNamesandNumbers.join(', ');
+    return "The line is currently: && " + lineNamesandNumbers.join(', ');
   }
 }
 
