@@ -18,10 +18,10 @@ function currentLine(line) {
   if(!line.length) {
     return "The line is currently empty."
   }
-  var lineNamesandNumbers = ["Bill", "Jane", "Ann"];
+  var lineNamesandNumbers = [];
 
   for(var i = 0; i < line.length; i++) {
-    return "The line is currently: && " + lineNamesandNumbers.join(', ');
+    return "The line is currently: " + lineNamesandNumbers.join(', ');
   }
 }
 
