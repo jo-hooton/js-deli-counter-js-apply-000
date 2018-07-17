@@ -19,7 +19,7 @@ function currentLine(line) {
   var lineNamesandNumbers = [];
 
     for(var i = 0; i < line.length; i++) {
-      lineNamesandNumbers.push((i+1)+". "+ name)
+      lineNamesandNumbers.push((i+1)+". "+ line[i])
     }
 
 
